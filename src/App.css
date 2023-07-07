@@ -1,3 +1,20 @@
+.gameBoard {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.card {
+  width: 25vw;
+  height: 25vw;
+  display: grid;
+}
+
+.cardText {
+  align-self: center;
+  justify-self: center;
+}
+
 .App {
   text-align: center;
 }
